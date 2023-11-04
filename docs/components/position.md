@@ -54,7 +54,7 @@ position would be `2 3 4`.
 
 For performance and ergonomics, we recommend updating position directly via the
 three.js [Object3D][object3d] `.position` [Vector3][vector] versus [via
-`.setAttribute`][update].
+`.setAttribute`][update]. 
 
 This method is easier because we have access to all the [Vector3
 utilities][vector], and faster by skipping `.setAttribute` overhead and not
@@ -76,6 +76,8 @@ el.object3D.position.x += 1;
 el.object3D.position.multiplyScalar(2);
 el.object3D.position.sub(someOtherVector);
 ```
+
+Position can also be updated using the [animation component](animation.md) in-built in A-Frame,
 
 ### Getting Position
 

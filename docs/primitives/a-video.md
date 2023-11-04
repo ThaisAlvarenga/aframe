@@ -49,8 +49,7 @@ iOS has a lot of restrictions on playing videos in the browser. To play an inlin
 - Set the `<meta name="apple-mobile-web-app-capable" content="yes">` meta tag. A-Frame will inject this if missing.
 - Set the `webkit-playsinline` and `playsinline` attribute to the video element. A-Frame will add this to all videos if missing).
 
-Since iOS 11, iOS has required user interaction to trigger video playback. This is also true on a number of Android device and
-browser combinations.
+Since iOS 11, iOS has required user interaction to trigger video playback. This is also true on a number of Android device and browser combinations.
 
 ## Fine-Tuning
 
