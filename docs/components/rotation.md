@@ -76,6 +76,11 @@ el.object3D.rotation.x += Math.PI;
 // With .setAttribute (less recommended).
 el.setAttribute('rotation', {x: 15, y: 30, z: 90});
 ```
+However, if you still want to use the A-Frame [animation component](animation.md), you can access rotation as a property and update it there. 
+
+```html
+<a-box position="0 1.5 -3" animation="property: rotation; to: 0 360 0; dur: 5000; easing: linear; loop: true"></a-box>
+```
 
 ### Getting Rotation
 
